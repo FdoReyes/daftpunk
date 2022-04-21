@@ -245,13 +245,25 @@ main h2, h3 {
     margin-bottom: 2em;
 }
 
-.grid-historia  .guythomas img{
+.grid-historia .guythomas img{
     height: 500px;
     border: 10px solid white;
 }
 
+.grid-historia .guythomas img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 0 15px 0 #E84343;
+    filter: grayscale(90%);
+}
+
+
 .grid-historia .txt-guythomas h2,p{
     color: white;
+}
+
+.grid-historia .txt-guythomas h2:hover,p:hover{
+    color: #b40101;
 }
 
 .grid-historia .txt-guythomas h2{
@@ -293,6 +305,7 @@ main h2, h3 {
 .img:hover{
     transform: scale(1.1);
     transition: all 0.7s;
+    filter: grayscale(95%);
 }
 
 .img-1 {
