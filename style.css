@@ -72,11 +72,23 @@ header {
     box-shadow: 0 0 15px 0 #0D8573;
 }
 
+.content1 video:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 0 15px 0 #E84343;
+}
+
 
 .content2 img{
     grid-area: content2;
     box-shadow: 0 0 15px 0 #0D8573;
     height: 480px;
+}
+
+.content2 img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 0 15px 0 #E84343;
 }
 
 .content3 {
@@ -85,6 +97,7 @@ header {
     margin: 20px 0px 0px 20px;
     color: white;
 }
+
 
 
 /* Fin Css grid Inicio */
