@@ -177,6 +177,7 @@ main h2, h3 {
 .img2 img{
     height: 100%;
     box-shadow: 0 0 15px 0 #0D8573;
+    
 }
 
 .img3 {
@@ -191,6 +192,12 @@ main h2, h3 {
 .img1, .img2, .img3 {
     margin: 15px;
     text-align: center;
+}
+
+.img1 img:hover, .img2 img:hover, .img3 img:hover{
+transform: scale(1.1);
+transition: 0.7s;
+box-shadow: 0 0 15px 0 #E84343;
 }
 /* Fin grids discos */
 
