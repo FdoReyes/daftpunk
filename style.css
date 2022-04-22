@@ -235,8 +235,21 @@ box-shadow: 0 0 15px 0 #E84343;
     border: 7px solid white;
 }
 
+.band img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 0 50px 0 #0D8573;
+}
 .txt-band h2{
     font-size: 25px;
+}
+
+.txt-band p:hover{
+    color: cadetblue;
+}
+
+.txt-band h2:hover{
+    color: cadetblue;
 }
 
 /* Fin Integrantes */
