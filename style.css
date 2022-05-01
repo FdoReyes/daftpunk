@@ -560,6 +560,11 @@ box-shadow: 0 0 15px 0 #E84343;
 .container h1{
     margin-bottom: 10px;
     color:white;
+    text-shadow: 3px 3px #b40101;
+}
+
+.container h1:hover{
+    text-shadow: 3px 3px #0D8573;
 }
 
 .container p{
