@@ -148,7 +148,6 @@ header {
 
 .iframe1 {
     grid-area: iframe1;
-    
 }
 
 .iframe2 {
@@ -161,7 +160,6 @@ header {
 
 .iframe1 iframe, .iframe2 iframe, .iframe3 iframe{
     width: 100%;
-    height: 30em;
 }
 
 .iframe1, .iframe2, .iframe3{
@@ -197,8 +195,10 @@ header {
 }
 
 .img1, .img2, .img3 {
-    margin: 15px;
-    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 350px;
 }
 
 .img1 img:hover, .img2 img:hover, .img3 img:hover{
@@ -209,12 +209,17 @@ box-shadow: 0 0 15px 0 #E84343;
 /* Fin grids discos */
 
 
-.discos h1{
+.txt-discos{
     text-align: center;
     color: white;
     margin-top: 5px;
     margin-bottom: 20px;
+    text-shadow: 3px 3px #b40101;
 }
+
+.txt-discos:hover{
+    text-shadow: 3px 3px #0D8573;
+} 
 
 /* Fin discos */
 
