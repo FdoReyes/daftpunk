@@ -95,10 +95,15 @@ header {
     grid-area: content3;
     text-align: center;
     margin: 20px 0px 0px 20px;
-    color: white;
 }
 
+.content3 .daft-title {
+    font-size: 35px;
+}
 
+.content3 .daft-years {
+    font-size: 25px;
+}
 
 /* Fin Css grid Inicio */
 
