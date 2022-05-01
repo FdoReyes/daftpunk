@@ -117,25 +117,14 @@ header {
     color: cadetblue;
 }
 
-
 /* Fin Css grid Inicio */
-
-
-/* Inicio texto home */
-main h2, main p, main h3{
-    text-align: center;
-    margin: 20px 10px;
-    color: white;
-}
-
-main h2, h3 {
-    font-size: 40px;
-    }
-/* Fin texto home */
 
 
 
 /* Index Final */
+
+
+
 
 
 /* Inicio discos */
@@ -620,18 +609,23 @@ footer{
     margin-top: auto;
 }
 
-footer p{
+.txt-sin{
     margin: 20px;
-
+    color: white;
 }
 
-footer p a{
+.txt-sin:hover{
+    color: none;
+}
+
+.txt-fdo{
     color:white;
     text-decoration: none;
 }
 
-footer p a:hover{
-    color: red;
+.txt-fdo:hover{
+    color: #0D8573;
+    text-decoration: none;
 }
 
 .social{
