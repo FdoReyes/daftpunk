@@ -101,9 +101,22 @@ header {
     font-size: 35px;
 }
 
+.content3 .daft-title:hover{
+    color: cadetblue;
+}
+
 .content3 .daft-years {
     font-size: 25px;
 }
+
+.content3 .daft-years:hover{
+    color: cadetblue;
+}
+
+.content3 .daft-index:hover{
+    color: cadetblue;
+}
+
 
 /* Fin Css grid Inicio */
 
@@ -245,6 +258,7 @@ box-shadow: 0 0 15px 0 #E84343;
     transition: 0.7s;
     box-shadow: 0 0 50px 0 #0D8573;
 }
+
 .txt-band h2{
     font-size: 25px;
 }
