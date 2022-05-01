@@ -240,24 +240,33 @@ box-shadow: 0 0 15px 0 #E84343;
     width: 600px;
     height: 374px;
     border: 7px solid white;
+    box-shadow: 0 0 50px 0 #0D8573;
 }
 
 .band img:hover {
     transform: scale(1.1);
     transition: 0.7s;
-    box-shadow: 0 0 50px 0 #0D8573;
+    box-shadow: 0 0 15px 0 #E84343;
 }
 
-.txt-band h2{
+.txt-band{
     font-size: 25px;
+    text-align: center;
 }
 
-.txt-band p:hover{
-    color: cadetblue;
+.txt-names {
+    font-size: 30px;
+    margin-top: 15px;
+    color:white;
 }
 
-.txt-band h2:hover{
-    color: cadetblue;
+.txt-names2 {
+    font-size: 20px;
+    color:white;
+}
+
+.txt-names:hover, .txt-names2:hover{
+    color: #0D8573;
 }
 
 /* Fin Integrantes */
@@ -286,19 +295,19 @@ box-shadow: 0 0 15px 0 #E84343;
 }
 
 
-.grid-historia .txt-guythomas h2,p{
+.txt-guythomas {
     color: white;
 }
 
-.grid-historia .txt-guythomas h2:hover,p:hover{
+.txt-origins:hover, .txt-origins2:hover{
     color: #b40101;
 }
 
-.grid-historia .txt-guythomas h2{
+.txt-origins {
     font-size: 30px;
 }
 
-.grid-historia .txt-guythomas p{
+.txt-origins2 {
     font-size: 23px;
     margin-top: 10px;
 }
