@@ -263,7 +263,7 @@ box-shadow: 0 0 15px 0 #E84343;
 }
 
 .txt-band2:hover{
-    text-shadow: 3px 3px #0D8573
+    text-shadow: 3px 3px #0D8573;
 }
 
 
@@ -341,6 +341,18 @@ box-shadow: 0 0 15px 0 #E84343;
     gap: 10px;
 }
 
+.txt-historia {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px #b40101;
+}
+
+.txt-historia:hover {
+    text-shadow: 3px 3px #0D8573;
+}
 
 
 .txt-galeria2 {
