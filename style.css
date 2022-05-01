@@ -508,6 +508,11 @@ box-shadow: 0 0 15px 0 #E84343;
 .contact-box {
     background: #fff;
     display:flex;
+    box-shadow: 0 0 50px 0 cornflowerblue;
+}
+
+.contact-box:hover{
+    box-shadow: 0 0 50px 0 #0D8573;
 }
 
 
