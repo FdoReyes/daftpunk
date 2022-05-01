@@ -498,12 +498,6 @@ box-shadow: 0 0 15px 0 #E84343;
     margin: 50px auto;
 }
 
-.fondo-contacto{
-    background-image: url(./img/contact-fondo.jpg);
-    background-size: cover;
-    background-position: 50%;
-}
-
 
 .contact-box {
     background: #fff;
