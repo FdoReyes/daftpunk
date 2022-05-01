@@ -326,10 +326,12 @@ box-shadow: 0 0 15px 0 #E84343;
     gap: 10px;
 }
 
-.txt-galeria {
+
+
+.txt-galeria2 {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -428,7 +430,7 @@ box-shadow: 0 0 15px 0 #E84343;
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 /* Fin videos Historia */
