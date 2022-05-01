@@ -240,8 +240,9 @@ box-shadow: 0 0 15px 0 #E84343;
 
 
 .band img {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 450px;
+    margin-bottom: 20px;
     width: 600px;
     height: 374px;
     border: 7px solid white;
@@ -254,13 +255,21 @@ box-shadow: 0 0 15px 0 #E84343;
     box-shadow: 0 0 15px 0 #E84343;
 }
 
-.txt-band{
+.txt-band2{
+    margin-top: 10px;
     font-size: 25px;
     text-align: center;
+    text-shadow: 3px 3px #b40101;
 }
+
+.txt-band2:hover{
+    text-shadow: 3px 3px #0D8573
+}
+
 
 .txt-names {
     font-size: 30px;
+    text-align: center;
     margin-top: 15px;
     color:white;
 }
@@ -268,6 +277,7 @@ box-shadow: 0 0 15px 0 #E84343;
 .txt-names2 {
     font-size: 20px;
     color:white;
+    text-align: center;
 }
 
 .txt-names:hover, .txt-names2:hover{
